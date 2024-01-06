@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email cím generátor</title>
+    <link rel="icon" type="image" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    
+</head>
+<body>
+
+    <h1>Email cím generátor</h1>
+
+    <form id="emailForm">
+        <label for="fullName">Teljes név:</label>
+        <input type="text" id="fullName" name="fullName" required>
+
+        <label for="birthYear">Születési év:</label>
+        <input type="number" id="birthYear"  name="birthYear" required>
+
+        <button type="button" onclick="generateEmail()">Generálás</button>
+    </form>
+
+    <p id="generatedEmail"></p>
+
+</body>
+</html>
